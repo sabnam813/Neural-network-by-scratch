@@ -1,0 +1,12 @@
+digraph {
+	graph [rankdir=LR]
+	2312225840592 [label="x | shape=(2, 2)" shape=record]
+	2312225834768 [label=" | shape=(4, 1)" shape=record]
+	"2312225834768reshape" [label=reshape]
+	"2312225834768reshape" -> 2312225834768
+	2312225836112 [label=" | shape=()" shape=record]
+	"2312225836112mean" [label=mean]
+	"2312225836112mean" -> 2312225836112
+	2312225840592 -> "2312225834768reshape"
+	2312225834768 -> "2312225836112mean"
+}
