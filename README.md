@@ -23,7 +23,6 @@ This project is **strictly for learning purposes** and takes full inspiration fr
 ## Usage
 1. Clone the repository:
    git clone https://github.com/sabnam813/Neural-network-by-scratch.git
-   cd neural-network-from-scratch
 
 2. Open Jupyter Notebook:
 jupyter notebook
